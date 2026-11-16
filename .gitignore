@@ -1,0 +1,22 @@
+node_modules
+dist
+dist-ssr
+.env
+.env.*
+!.env.example
+.wrangler
+.vercel
+
+# Build del Worker y basura del sistema
+worker-dist
+*.log
+.DS_Store
+Thumbs.db
+
+# Secretos y credenciales: nunca al repositorio
+.dev.vars
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
